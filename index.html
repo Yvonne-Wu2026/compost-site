@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compost Pickup</title>
+  <meta name="description" content="How garbage collection in the U.S. evolved, who it has burdened, and an app designed to make composting easier to join.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#top">Compost<br>Pickup</a>
+    <nav class="side-nav" aria-label="Sections">
+      <a href="#history">History</a>
+      <a href="#concerns">Concerns</a>
+      <a href="#solution">The App</a>
+      <a href="#summary">Summary</a>
+    </nav>
+  </aside>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">A look into waste management</p>
+        <h1>What does it mean to throw something <em>away</em>?</h1>
+        <div class="lede">
+          <p>
+            Many of us don’t put too much thought into where our trash goes after the garbage
+            truck rolls around and takes it away, but where is this “away” place? The majority of
+            municipal solid waste ends up in landfills, so it is likely the takeout containers you
+            tossed in the garbage can will end up sitting in a landfill far away.
+          </p>
+          <p>
+            Although garbage collection technology is essential for maintaining public sanitation,
+            the waste management infrastructure it supports can contribute to environmental
+            injustice by disproportionately burdening low-income communities with the environmental
+            and health risks associated with landfills. The conventional waste management system in
+            the United States can perpetuate environmental inequality when waste disposal facilities
+            are located near disadvantaged neighborhoods, exposing residents to potential pollution,
+            odors, and other environmental hazards. Reducing our reliance on landfills is essential
+            to protecting public health and promoting environmental justice.
+          </p>
+          <p>
+            Composting offers a practical way to divert organic waste from landfills, but why isn’t
+            it more widely practiced in the United States? Barriers such as limited space, lack of
+            access to municipal composting programs, and costly or unavailable pickup services can
+            make composting difficult to adopt.
+          </p>
+          <p>
+            To address these challenges, I designed a compost pickup and scheduling app that makes
+            composting more accessible while highlighting its environmental benefits. An accessible
+            composting app could help address part of the landfill problem by diverting food waste
+            away from landfills, reducing the amount of organic waste requiring disposal, and
+            encouraging more sustainable waste management practices.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#solution">See the app</a>
+          <a class="btn btn-ghost" href="#history">Start with the history</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section id="history" class="section">
+      <div class="container">
+        <p class="eyebrow">01 · History</p>
+        <h2>Garbage collection in the United States</h2>
+        <p class="section-intro">Garbage collection and waste management have drastically evolved throughout the years in the United States.</p>
+
+        <ol class="timeline">
+          <li>
+            <span class="year">Late 1800s</span>
+            <div>
+              <h3>Horse-drawn wagons</h3>
+              <p>Waste was collected house to house by horse-drawn wagons.</p>
+              <a class="source" href="https://tri-statedisposal.com/blog/history-of-the-garbage-truck/" target="_blank" rel="noopener">Source: Tri-State Disposal, “The History of Garbage Trucks: From Horses to Hydraulics”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1895</span>
+            <div>
+              <h3>Municipal street cleaning</h3>
+              <p>As New York City’s Commissioner of Street Cleaning (1895–1898), George Waring set up the city’s first organized system of street cleaning and garbage sorting. It became an early model for modern sanitation and recycling.</p>
+              <a class="source" href="https://www.history.com/articles/george-waring" target="_blank" rel="noopener">Source: HISTORY.com, “George Waring”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1920s</span>
+            <div>
+              <h3>Hydraulic garbage trucks</h3>
+              <p>The first hydraulic garbage trucks used hydraulic systems to compact garbage, increasing the amount of waste collected per trip while also helping control odors and pests.</p>
+              <a class="source" href="https://tri-statedisposal.com/blog/history-of-the-garbage-truck/" target="_blank" rel="noopener">Source: Tri-State Disposal, “The History of Garbage Trucks: From Horses to Hydraulics”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">Mid-1900s</span>
+            <div>
+              <h3>Burning trash</h3>
+              <p>In the early 1900s, wealthy households had home incinerator units to burn their trash. By the mid-20th century, hundreds of incinerators were in operation across the United States until the 1960s.</p>
+              <a class="source" href="https://greatinspector.com/incinerators-were-once-common/" target="_blank" rel="noopener">Source: Buyer’s Inspection Service, “Residential Incinerators Were Once Common”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1930s–1960s</span>
+            <div>
+              <h3>Sanitary landfills</h3>
+              <p>Sanitary landfills began in the United States in the 1930s: waste was disposed of in thin layers and covered with dirt. But chemicals and toxins were still leaking into groundwater, so in the 1960s local governments began lining landfill bottoms with clay or impermeable synthetic materials to keep them contained.</p>
+              <a class="source" href="https://www.oneheartland.com/insights/history-of-landfills/" target="_blank" rel="noopener">Source: Heartland, “The History of Landfills and How They’ve Shaped Modern Waste Management”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1965</span>
+            <div>
+              <h3>Solid Waste Disposal Act</h3>
+              <p>Because liners weren’t legally required, many companies and cities kept using open, unsanitary dumps. The Solid Waste Disposal Act was the federal government’s first attempt at regulating how and where waste should be disposed.</p>
+              <a class="source" href="https://www.oneheartland.com/insights/history-of-landfills/" target="_blank" rel="noopener">Source: Heartland, “The History of Landfills and How They’ve Shaped Modern Waste Management”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1970s</span>
+            <div>
+              <h3>Front-loading trucks</h3>
+              <p>Front-loading trucks lifted and emptied large dumpsters using forks.</p>
+              <a class="source" href="https://tri-statedisposal.com/blog/history-of-the-garbage-truck/" target="_blank" rel="noopener">Source: Tri-State Disposal, “The History of Garbage Trucks: From Horses to Hydraulics”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">1976</span>
+            <div>
+              <h3>Resource Conservation and Recovery Act</h3>
+              <p>Congress passed the Resource Conservation and Recovery Act (RCRA), which banned the open dumping of solid waste, gave the EPA authority to regulate municipal solid waste landfills, and set up a system for the safe disposal of hazardous waste.</p>
+              <a class="source" href="https://www.oneheartland.com/insights/history-of-landfills/" target="_blank" rel="noopener">Source: Heartland, “The History of Landfills and How They’ve Shaped Modern Waste Management”</a>
+            </div>
+          </li>
+          <li>
+            <span class="year">Today</span>
+            <div>
+              <h3>Connected Landfills</h3>
+              <p>Waste Management’s Connected Landfills system uses internet-connected sensors and remote monitoring to make landfill operations more efficient, responsive, and easier to manage. After a successful pilot at the West Edmonton Landfill in Alberta, Canada, WM announced in 2020 that it planned to expand the system to other sites throughout North America.</p>
+              <a class="source" href="https://mediaroom.wm.com/2020-09-15-Waste-Management-wins-technology-award-for-innovative-environmental-platform" target="_blank" rel="noopener">Source: WM, “Waste Management wins technology award for innovative environmental platform” (2020)</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONCERNS -->
+    <section id="concerns" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">02 · Concerns</p>
+        <h2>Better technology, more waste: the challenge of modern waste management</h2>
+        <p class="section-intro">
+          Waste collection and disposal have come a long way since horse-drawn wagons and unlined
+          landfills. But landfill use is increasing even as facilities are shutting down. Recycling
+          has even declined, and composting has made only modest progress.
+          <a class="source" href="https://www.wastetodaymagazine.com/news/rcon-2026-tracking-municipal-solid-waste/" target="_blank" rel="noopener">Source: Waste Today, “RCON 2026: Tracking municipal solid waste”</a>
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>Air quality</h3>
+            <p>Landfill gas forms when organic matter decomposes without oxygen. It is mostly methane and carbon dioxide, both greenhouse gases, and can also contain PFAS. Breathing it can cause nausea, coughing, and breathing problems, and over time it raises the risk of respiratory illness and lung cancer.</p>
+            <a class="source" href="https://greenumbrella.org/disposable-how-waste-impacts-our-health/" target="_blank" rel="noopener">Source: Green Umbrella, “‘Disposable’: How Waste Impacts Our Health”</a>
+          </article>
+          <article class="card">
+            <h3>Leachate contamination</h3>
+            <p>Leachate forms as rain and snowmelt filter through landfill waste, picking up heavy metals, pharmaceuticals, and PFAS. When improperly managed, it can contaminate soil, groundwater, rivers, and lakes, leading to health effects ranging from skin irritation to antibiotic resistance to cancer.</p>
+            <a class="source" href="https://greenumbrella.org/disposable-how-waste-impacts-our-health/" target="_blank" rel="noopener">Source: Green Umbrella, “‘Disposable’: How Waste Impacts Our Health”</a>
+          </article>
+          <article class="card">
+            <h3>Plastics everywhere</h3>
+            <p>In landfills, chemicals from plastics are absorbed into leachate and landfill gas. Plastic that escapes into the environment breaks down into microplastics that end up in water, soil, air, and eventually our bodies, with links to cancer, diabetes, heart health, and reproductive health.</p>
+            <a class="source" href="https://greenumbrella.org/disposable-how-waste-impacts-our-health/" target="_blank" rel="noopener">Source: Green Umbrella, “‘Disposable’: How Waste Impacts Our Health”</a>
+          </article>
+          <article class="card">
+            <h3>Unequal burden</h3>
+            <p>Even modern landfills leak, and poor waste management raises the risk of respiratory illness, heart disease, stroke, asthma attacks, and adverse birth outcomes. Because landfills are most often built near low-income neighborhoods and communities of color, those communities are hit the hardest.</p>
+            <a class="source" href="https://greenumbrella.org/disposable-how-waste-impacts-our-health/" target="_blank" rel="noopener">Source: Green Umbrella, “‘Disposable’: How Waste Impacts Our Health”</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section id="solution" class="section section-feature">
+      <div class="container">
+        <p class="eyebrow">03 · The App</p>
+        <h2>Making composting easy to join</h2>
+        <p class="section-intro">
+          Food waste and other organic materials such as yard trimmings, wood, and paper make up
+          51.4% of municipal solid waste in landfills. Wasted food alone is responsible for 58%
+          of landfill methane emissions. This gives composting a giant opportunity to reduce the
+          burden on our landfills. Yet of the 66.2 million tons of food wasted by U.S. homes, stores,
+          and restaurants in 2019, only 5% was composted.
+          <a class="source" href="https://www.epa.gov/sustainable-management-food/composting" target="_blank" rel="noopener">Source: U.S. EPA, “Composting”</a>
+        </p>
+        <p class="section-intro">
+          There are many barriers to implementation of composting programs throughout the nation.
+          While this app is not a solution to the broader problem of landfill waste, it aims to
+          spark conversations about our culture of throwing things “away” and raise awareness of
+          how everyday choices can help reduce our carbon footprint.
+        </p>
+        <p class="section-intro">
+          I created a prototype for a composting app to make the pickup and scheduling process easy
+          to use. The home screen shows your next pickup at a glance, and a calendar lets you
+          schedule an extra pickup, skip one, or reschedule with a few taps. A quick yes/no guide
+          answers the question “what can I compost?” To keep people motivated, an impact dashboard
+          turns every pickup into visible progress: pounds of waste diverted from landfills,
+          greenhouse gas emissions avoided, and compost returned to local businesses. Achievements
+          and a pickup history make it rewarding to keep going.
+        </p>
+        <div class="app-cta">
+          <a class="btn btn-primary" href="https://bunch-retain-73612536.figma.site" target="_blank" rel="noopener">Check out the app</a>
+        </div>
+
+        <div class="feature-grid">
+          <figure class="screen">
+            <img src="images/01-login.png" alt="Log in screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/01-login.png</code></div>
+            <figcaption><strong>Log in</strong> A simple welcome screen to sign in or create an account.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/02-home.png" alt="Home screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/02-home.png</code></div>
+            <figcaption><strong>Home</strong> See your next pickup at a glance, schedule an extra pickup, check what can be composted, and track how much waste you’ve diverted.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/03-schedule.png" alt="Schedule screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/03-schedule.png</code></div>
+            <figcaption><strong>Schedule</strong> A calendar shows scheduled, available, and past pickups. Dates within 72 hours are unavailable so pickups can be planned.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/04-reschedule.png" alt="Skip or reschedule screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/04-reschedule.png</code></div>
+            <figcaption><strong>Skip or reschedule</strong> Tap a scheduled pickup to reschedule it, skip it, or keep it as is.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/05-impact.png" alt="Your impact screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/05-impact.png</code></div>
+            <figcaption><strong>Your impact</strong> See your total waste composted, progress toward your next goal, and the greenhouse gas emissions you’ve helped avoid.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/06-achievements.png" alt="Achievements screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/06-achievements.png</code></div>
+            <figcaption><strong>Achievements</strong> Earn badges for milestones like your first pickup and pounds diverted, and see the local businesses your compost supports.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/07-history.png" alt="Pickup history screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/07-history.png</code></div>
+            <figcaption><strong>Pickup history</strong> Review past pickups, how much was collected each time, and any missed pickups with the reason why.</figcaption>
+          </figure>
+          <figure class="screen">
+            <img src="images/08-profile.png" alt="Profile screen of the compost pickup app" loading="lazy" onerror="this.closest('figure').classList.add('missing')">
+            <div class="screen-placeholder">Add screenshot<br><code>images/08-profile.png</code></div>
+            <figcaption><strong>Profile</strong> Manage your payment method, billing history, pickup plan, security, and reminder preferences.</figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SUMMARY -->
+    <section id="summary" class="section">
+      <div class="container narrow summary">
+        <p class="eyebrow">04 · Summary</p>
+        <h2>Composting is promising, but the solution isn’t that easy</h2>
+        <p>
+          The waste management process has become safer and more efficient as technology has
+          become more advanced. The argument isn’t that waste management technology is “bad” for
+          society; we know that sanitary landfills are necessary. We also know that landfills
+          release greenhouse gases, pollute water sources, pollute the air, and studies show they
+          are often built near low-income communities.
+        </p>
+        <p>
+          The main goals of this composting app are to encourage people to compost by highlighting
+          their impact, and to make the scheduling and pickup process easier. It doesn’t solve the
+          issues with composting, such as the lack of public composting facilities and programs, the
+          cost of private curbside services, and the lack of space for households that rent or live
+          in apartments. However, an accessible composting app can address one tiny part of the
+          problem by encouraging sustainable practices and increasing participation, as lack of
+          engagement is also a big barrier to entry.
+          <a class="source" href="https://trellis.net/article/why-composting-so-hard-united-states/" target="_blank" rel="noopener">Source: Trellis, “Why is composting so hard in the United States?”</a>
+        </p>
+        <p>
+          Being an optimist at heart, I believe there will be more composting programs in the
+          future. In my town, there are currently no curbside pickup services or municipal programs
+          available. If you are interested in checking if there is a pickup service in your area, I
+          recommend Litterless’s <a href="https://www.litterless.com/wheretocompost" target="_blank" rel="noopener">state-by-state guide</a>,
+          which lists curbside pickup services and drop-off locations across the country. If you
+          live in Massachusetts or elsewhere in New England, you can also check
+          <a href="https://www.blackearthcompost.com/home-pickup" target="_blank" rel="noopener">Black Earth Compost</a>,
+          which offers home pickup in that region. If you would like to talk more about composting,
+          feel free to reach out. If you own a local composting business and are interested in my
+          app prototype, also reach out!
+        </p>
+        <div class="center">
+          <a class="btn btn-primary" href="mailto:yvonnewu.designs@gmail.com">Reach out</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Yvonne Wu</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
