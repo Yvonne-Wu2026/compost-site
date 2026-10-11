@@ -63,7 +63,7 @@ h3 { font-size: 1.25rem; font-weight: 600; }
 }
 .section { padding: 96px 0; }
 .section-alt { background: var(--bg-alt); }
-.section-intro { max-width: 680px; color: var(--muted); font-size: 1.1rem; }
+.section-intro { color: var(--muted); font-size: 1.1rem; }
 
 /* Sidebar */
 :root { --sidebar-w: 220px; }
@@ -98,7 +98,7 @@ section[id] { scroll-margin-top: 0; }
 
 /* Hero */
 .hero { padding: 120px 0 100px; }
-.lede { font-size: 1.15rem; color: var(--muted); max-width: 680px; }
+.lede { font-size: 1.15rem; color: var(--muted); }
 .lede p { margin: 0 0 1.1em; }
 .lede p:last-child { margin-bottom: 0; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 2rem; }
