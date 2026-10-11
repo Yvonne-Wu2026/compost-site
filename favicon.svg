@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
     <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F6B042"/>
-      <stop offset="0.55" stop-color="#E8792B"/>
-      <stop offset="1" stop-color="#C9522A"/>
+      <stop offset="0" stop-color="#B5E07A"/>
+      <stop offset="0.55" stop-color="#6FB34A"/>
+      <stop offset="1" stop-color="#3F8A3A"/>
     </linearGradient>
   </defs>
   <!-- stem -->
-  <path d="M14 52 Q10 57 6 58" fill="none" stroke="#7A4A26" stroke-width="4" stroke-linecap="round"/>
+  <path d="M14 52 Q10 57 6 58" fill="none" stroke="#6B4A2B" stroke-width="4" stroke-linecap="round"/>
   <!-- leaf -->
-  <path d="M14 52 C8 34 18 12 56 8 C54 40 36 56 14 52 Z" fill="url(#leaf)" stroke="#A8441F" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M14 52 C8 34 18 12 56 8 C54 40 36 56 14 52 Z" fill="url(#leaf)" stroke="#2F6B2C" stroke-width="2" stroke-linejoin="round"/>
   <!-- veins -->
-  <path d="M14 52 C26 40 38 26 52 12" fill="none" stroke="#A8441F" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M24 42 L22 30 M31 35 L30 22 M38 28 L38 17 M28 39 L40 40 M35 32 L47 31" fill="none" stroke="#A8441F" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M14 52 C26 40 38 26 52 12" fill="none" stroke="#2F6B2C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 42 L22 30 M31 35 L30 22 M38 28 L38 17 M28 39 L40 40 M35 32 L47 31" fill="none" stroke="#2F6B2C" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
   <!-- shine -->
-  <path d="M22 26 C26 18 34 14 42 12" fill="none" stroke="#FFE2A8" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M22 26 C26 18 34 14 42 12" fill="none" stroke="#E9F8C8" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
 </svg>
